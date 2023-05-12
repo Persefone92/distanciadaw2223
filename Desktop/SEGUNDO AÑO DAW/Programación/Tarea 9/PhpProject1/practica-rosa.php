@@ -4,7 +4,7 @@
 *@version 1.0
 */
 //Clase base con propiedades y metodos miembro
-class Verdura{
+class Frutas{
 	var $comestible;
 	var $color;
 
@@ -41,7 +41,7 @@ class Verdura{
 } //fin de la clase Verdura
 
 //ampliar la clase base
-class Espinaca extends Verdura{
+class Espinaca extends Frutas{
 	var $cocinada = false;
 
 	function __construct()
